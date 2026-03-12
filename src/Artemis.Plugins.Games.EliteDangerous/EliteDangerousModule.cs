@@ -14,7 +14,9 @@ namespace Artemis.Plugins.Games.EliteDangerous
     {
         private static readonly string EliteDataDirectory = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-            @"Saved Games\Frontier Developments\Elite Dangerous"
+            "Saved Games",
+			"Frontier Developments",
+			"Elite Dangerous"
         );
 
         private JournalParser journalParser;
